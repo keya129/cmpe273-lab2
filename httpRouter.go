@@ -44,7 +44,6 @@ func PostsCreateHandler(rw http.ResponseWriter, r *http.Request,p httprouter.Par
 		}
 	}
 
-  fmt.Fprintln(rw, "Welcome ",todo.Name)
 /*
     todos := Todos{
     Todo{Name: r.FormValue("name")},
